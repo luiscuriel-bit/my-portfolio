@@ -8,7 +8,7 @@ const Navbar = () => {
             <div className='max-w-6xl mx-auto px-4 sm:px-6 lg:px-8'>
                 <div className='flex items-center justify-between h-16'>
                     <ul className='flex space-x-8'>
-                        {['Hero', 'About', 'Projects', 'Contact'].map((item) => {
+                        {['Home', 'About', 'Projects', 'Contact'].map((item) => {
                             const section = item.toLowerCase();
                             return (
                                 <li key={item}>
